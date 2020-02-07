@@ -84,3 +84,8 @@ border {outline:none;}
 .noline_r {border-right:0px !important;}
 .noline_b {border-bottom:0px !important;}
 .noline_l {border-left:0px !important;}
+#load_wrap > * {-webkit-animation: pageOn all 1s; animation: pageOn 1s;}
+@keyframes pageOn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
